@@ -3,7 +3,7 @@ id: "65b662f0-e0fd-4500-b43b-9064deae7a2c"
 name: "summarise-text"
 display_name: "Summarise Text"
 description: "Condenses long-form text into key points and a concise summary"
-version: "1.0.1"
+version: "1.0.2"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -14,6 +14,8 @@ category: "shared"
 tags:
   - "shared"
   - "prompt"
+dependencies: []
+
 contents:
   skills: 0
   prompts: 1
