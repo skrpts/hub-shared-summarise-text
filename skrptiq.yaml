@@ -1,9 +1,9 @@
 # --- Identity ---
 id: "65b662f0-e0fd-4500-b43b-9064deae7a2c"
 name: "summarise-text"
-display_name: "Summarise Text"
+display_name: "Summarize Text"
 description: "Condenses long-form text into key points and a concise summary"
-version: "1.0.2"
+version: "1.0.3"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -25,3 +25,17 @@ contents:
   documents: 0
   assets: 0
   total: 1
+
+security:
+  status: "pass"
+  scanned_at: "2026-07-16T14:48:45.223Z"
+  scanner_version: "3.3.0"
+  syntactic: "pass"
+  structural: "pass"
+  detected:
+    services: []
+    permissions: []
+    data_handling: []
+  undeclared: []
+  warnings: []
+  report_url: "https://hub.skrptiq.ai/skrpts/summarise-text/security"

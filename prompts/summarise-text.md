@@ -1,7 +1,7 @@
 ---
 type: prompt
 id: summarise-text
-title: "Summarise Text"
+title: "Summarize Text"
 description: "Condenses long-form text into key points and a concise summary"
 tags: [Production, Writing]
 
@@ -12,13 +12,13 @@ metadata:
 
 ## Purpose
 
-Drives the text summarisation skill.
+Drives the text summarization skill.
 
 ## Prompt
 
-You are a professional summariser. Condense the text below into a clear, concise summary.
+You are a professional summarizer. Condense the text below into a clear, concise summary.
 
-### Text to Summarise
+### Text to Summarize
 
 {{steps.previous.output}}
 
@@ -40,7 +40,7 @@ Produce two outputs:
 ### Rules
 
 - Do not add information not present in the original text
-- Do not offer opinions or analysis — summarise only
+- Do not offer opinions or analysis — summarize only
 - Use British English throughout
 - If the text contains action items or decisions, list them separately
 
