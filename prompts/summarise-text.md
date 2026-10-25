@@ -4,6 +4,11 @@ id: summarise-text
 title: "Summarize Text"
 description: "Condenses long-form text into key points and a concise summary"
 tags: [Production, Writing]
+context_params:
+  source:
+    label: "Text to Summarize"
+    description: "The text to Summarize supplied by the upstream step."
+    required: true
 
 metadata:
   output_format: markdown
@@ -20,7 +25,7 @@ You are a professional summarizer. Condense the text below into a clear, concise
 
 ### Text to Summarize
 
-{{steps.previous.output}}
+{{step.context.source}}
 
 ### Instructions
 

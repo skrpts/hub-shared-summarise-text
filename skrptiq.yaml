@@ -3,7 +3,7 @@ id: "65b662f0-e0fd-4500-b43b-9064deae7a2c"
 name: "summarise-text"
 display_name: "Summarize Text"
 description: "Condenses long-form text into key points and a concise summary"
-version: "1.0.3"
+version: "1.0.4"
 engine: ">=0.1.0"
 author:
   name: "skrptiq"
@@ -28,7 +28,7 @@ contents:
 
 security:
   status: "pass"
-  scanned_at: "2026-07-16T14:48:45.223Z"
+  scanned_at: "2026-10-25T16:50:15.046Z"
   scanner_version: "3.3.0"
   syntactic: "pass"
   structural: "pass"
